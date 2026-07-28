@@ -6,9 +6,9 @@ sudo apt-get update -y
 
 sudo apt-get install -y docker.io docker-compose-v2
 
-sudo systemtl enable --now docker
+sudo systemctl enable --now docker
 
-sudo udermod -aG docker "$USER"
+sudo usermod -aG docker "$USER"
 
 sudo docker --version
 sudo docker compose version
