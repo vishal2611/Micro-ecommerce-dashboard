@@ -1,0 +1,15 @@
+# docker-compose.yml
+  services:
+    dashboard:
+      image: dockerhbub-vishalv26/ecommerce-dashboard:1.0
+      container_name: ecommerce-dashboard
+      ports:
+        - "80:80"
+      environment:
+        USER_HOST: localhost
+        PROFILE_HOST: localhost
+        PRODUCT_HOST: localhost
+        CART_HOST: localhost
+        ORDER_HOST: localhost
+        PAYMENT_HOST: localhost
+      restart: unless-stopped

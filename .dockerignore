@@ -1,0 +1,6 @@
+# file : .dockerignore
+node_modules
+dist
+.dist
+.git
+README.md
