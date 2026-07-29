@@ -1,7 +1,7 @@
 # docker-compose.yml
   services:
     dashboard:
-      image: dockerhbub-vishalv26/ecommerce-dashboard:1.0
+      image: vishalv26/ecommerce-dashboard:1.0
       container_name: ecommerce-dashboard
       ports:
         - "80:80"
